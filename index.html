@@ -103,7 +103,7 @@
       margin: 0 !important;
     }
 
-    /* FIX DEFINITIVO DE TABLAS */
+    /* FIX DEFINITIVO DE TABLAS (ADIÓS FILAS BLANCAS) */
     .markdown-section table {
       display: table !important;
       width: 100% !important;
@@ -139,6 +139,18 @@
       border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
       color: #e2e8f0 !important;
     }
+
+    /* CAJA DE ADMINISTRACIÓN */
+    .admin-box {
+      background: rgba(239, 68, 68, 0.08);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .admin-box h2 { color: #ef4444 !important; margin: 0 0 10px 0 !important; }
+    .admin-box p { color: #fca5a5 !important; margin: 0 !important; }
   </style>
 </head>
 <body>
@@ -148,15 +160,14 @@
     window.$docsify = {
       name: 'ZEPHYRIA WIKI',
       loadSidebar: true,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      },
-      subMaxLevel: 2,
+      subMaxLevel: 3,
       homepage: 'README.md',
-      auto2top: true
+      auto2top: true,
+      executeScript: true
     }
   </script>
   
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
 </html>
+
