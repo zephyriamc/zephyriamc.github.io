@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Zephyria Staff — Wiki & Panel</title>
+  <title>Zephyria Staff — Wiki & Sanciones</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
@@ -14,7 +14,7 @@
   <style>
     :root {
       --base-font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
-      --theme-color: #38bdf8; /* Azul cyan brillante */
+      --theme-color: #38bdf8;
       --base-background-color: #0b0f19;
       --sidebar-background: #070a10;
       --content-max-width: 1000px;
@@ -60,7 +60,7 @@
       color: #38bdf8 !important;
     }
 
-    /* Hero Section (Estilo PolarMC) */
+    /* Estilos PolarMC Hero */
     .badge {
       display: inline-flex;
       align-items: center;
@@ -116,10 +116,10 @@
       margin-bottom: 25px !important;
     }
 
-    /* Grid de tarjetas (Estilo PolarMC) */
+    /* Grid de tarjetas */
     .grid-cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 20px;
       margin-top: 20px;
     }
@@ -169,13 +169,6 @@
       font-weight: 700;
       font-size: 0.88rem;
       text-decoration: none !important;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .card-link:hover {
-      text-decoration: underline !important;
     }
 
     .card-disabled {
@@ -184,11 +177,33 @@
       font-weight: 600;
     }
 
-    /* Ocultar elementos nativos feos */
+    /* Tablas estilo profesional */
+    table {
+      background: #101625 !important;
+      border-radius: 12px !important;
+      border-collapse: collapse !important;
+      width: 100% !important;
+      margin: 25px 0 !important;
+      overflow: hidden;
+    }
+
+    th {
+      background: #161e30 !important;
+      color: #38bdf8 !important;
+      font-weight: 700 !important;
+      text-align: left !important;
+    }
+
+    td, th {
+      border: 1px solid #1a2336 !important;
+      padding: 14px 18px !important;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
     .markdown-section h1:first-child { display: none; }
-    table { background: #101625 !important; border-radius: 12px; }
-    th { background: #161e30 !important; }
-    td, th { border-color: #1a2336 !important; }
   </style>
 </head>
 <body>
