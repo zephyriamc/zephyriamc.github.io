@@ -21,11 +21,24 @@
 
     body {
       background-color: var(--bg-main) !important;
-      font-family: 'Plus Jakarta Sans', sans-serif !important;
-      color: #f1f5f9;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+      color: #e2e8f0 !important;
     }
 
-    /* Ocultar barra lateral y la barra de navegación estándar de la portada */
+    /* Reset global de colores para evitar letras blancas perdidas */
+    h1, h2, h3, h4, h5, h6 {
+      color: #f8fafc !important;
+      font-family: 'Plus Jakarta Sans', sans-serif !important;
+      font-weight: 800 !important;
+      border: none !important;
+    }
+
+    p, li, span, div {
+      color: #cbd5e1 !important;
+      line-height: 1.6;
+    }
+
+    /* Ocultar barra lateral */
     .sidebar, .sidebar-toggle { display: none !important; }
     .content { padding-left: 0 !important; left: 0 !important; position: relative !important; width: 100% !important; }
 
@@ -43,11 +56,11 @@
       gap: 10px !important;
       list-style: none !important;
       padding: 6px 12px !important;
-      background: rgba(17, 24, 39, 0.85);
+      background: rgba(17, 24, 39, 0.9);
       backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 50px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
     }
 
     .app-nav a {
@@ -67,20 +80,20 @@
       box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
     }
 
-    /* Estilos del Contenedor principal */
+    /* Contenedor principal */
     .markdown-section {
       max-width: 1000px !important;
       margin: 0 auto !important;
       padding: 60px 25px 50px 25px !important;
     }
 
-    /* GRID Y TARJETAS EN HTML DIRECTO */
+    /* Badges y Textos Hero */
     .hero-badge {
       display: inline-block;
       padding: 6px 16px;
       background: rgba(56, 189, 248, 0.1);
       border: 1px solid rgba(56, 189, 248, 0.3);
-      color: #38bdf8;
+      color: #38bdf8 !important;
       border-radius: 20px;
       font-size: 0.78rem;
       font-weight: 800;
@@ -95,22 +108,22 @@
       color: #ffffff !important;
       line-height: 1.15 !important;
       margin-bottom: 12px !important;
-      border: none !important;
     }
 
     .hero-title span {
-      color: #38bdf8;
+      color: #38bdf8 !important;
       text-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
     }
 
     .hero-sub {
-      color: #94a3b8;
+      color: #94a3b8 !important;
       font-size: 1.05rem;
       max-width: 650px;
       margin-bottom: 35px;
       line-height: 1.6;
     }
 
+    /* Grid de tarjetas de navegación */
     .nav-grid {
       display: grid !important;
       grid-template-columns: repeat(2, 1fr) !important;
@@ -151,13 +164,13 @@
     .card-title {
       font-size: 1.2rem;
       font-weight: 700;
-      color: #ffffff;
+      color: #ffffff !important;
       margin-bottom: 8px;
     }
 
     .card-desc {
       font-size: 0.88rem;
-      color: #64748b;
+      color: #94a3b8 !important;
       line-height: 1.5;
       margin-bottom: 18px;
     }
@@ -165,10 +178,10 @@
     .card-btn {
       font-size: 0.85rem;
       font-weight: 700;
-      color: #38bdf8;
+      color: #38bdf8 !important;
     }
 
-    /* Tablas */
+    /* Estilos de tablas */
     table {
       width: 100% !important;
       border-collapse: collapse !important;
@@ -191,6 +204,41 @@
       padding: 14px 18px !important;
       border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
       color: #cbd5e1 !important;
+    }
+
+    /* Cajas destacadas de aviso / alertas */
+    .admin-box {
+      background: rgba(239, 68, 68, 0.08);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .admin-box h2 {
+      color: #ef4444 !important;
+      margin: 0 0 10px 0 !important;
+      font-size: 1.6rem !important;
+    }
+
+    .admin-box p {
+      color: #fca5a5 !important;
+      margin: 0 !important;
+    }
+
+    .guide-box {
+      background: #111827;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .guide-box h3 {
+      color: #38bdf8 !important;
+      margin-top: 0 !important;
+      margin-bottom: 8px !important;
     }
   </style>
 </head>
