@@ -31,7 +31,7 @@ Bienvenido a la documentación oficial y manual operativo para el equipo de Staf
    - [Requisitos Mínimos para Capturas de Pantalla](#requisitos-mínimos-para-capturas-de-pantalla)
 
    
-6. [⚖️ Código de Conducta del Staff](codigo-conducta.md)
+6. [⚖️ Código de Conducta del Staff](#codigo-conducta)
 
 ---
 
