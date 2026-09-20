@@ -48,7 +48,7 @@
 
     /* CONTENEDOR PRINCIPAL */
     .markdown-section {
-      max-width: 1000px !important;
+      max-width: 1100px !important;
       margin: 0 auto !important;
       padding: 40px 30px !important;
     }
@@ -59,51 +59,65 @@
       border: none !important;
     }
 
-    h1 { color: #38bdf8 !important; font-size: 2.2rem !important; }
+    h1 {
+      color: #38bdf8 !important;
+      font-size: 2.2rem !important;
+      letter-spacing: -0.5px;
+    }
 
-    /* TRANSFORMACIÓN DE LISTAS EN TARJETAS (PÁGINA PRINCIPAL) */
+    h2 {
+      font-size: 1.4rem !important;
+      margin-top: 30px !important;
+      padding-bottom: 8px !important;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.2) !important;
+    }
+
+    /* TARJETAS INTERACTIVAS (GRID DE BOTONES) */
     .markdown-section > ul {
       display: grid !important;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-      gap: 20px !important;
+      gap: 16px !important;
       padding: 0 !important;
       list-style: none !important;
-      margin-top: 20px !important;
+      margin: 20px 0 35px 0 !important;
     }
 
     .markdown-section > ul > li {
       background: #111827 !important;
       border: 1px solid rgba(56, 189, 248, 0.25) !important;
       border-radius: 12px !important;
-      padding: 20px !important;
-      transition: all 0.25s ease !important;
+      padding: 18px 22px !important;
+      transition: all 0.2s ease-in-out !important;
       margin: 0 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: flex-start !important;
     }
 
     .markdown-section > ul > li:hover {
       border-color: #38bdf8 !important;
-      transform: translateY(-4px) !important;
-      box-shadow: 0 10px 25px rgba(56, 189, 248, 0.15) !important;
+      transform: translateY(-3px) !important;
+      box-shadow: 0 8px 20px rgba(56, 189, 248, 0.15) !important;
       background: #162032 !important;
     }
 
     .markdown-section > ul > li > a {
       color: #38bdf8 !important;
       font-weight: 800 !important;
-      font-size: 1.15rem !important;
+      font-size: 1.1rem !important;
       text-decoration: none !important;
-      display: block !important;
-      margin-bottom: 8px !important;
+      display: inline-block !important;
+      margin-bottom: 6px !important;
     }
 
     .markdown-section > ul > li > p {
       color: #94a3b8 !important;
-      font-size: 0.9rem !important;
-      line-height: 1.5 !important;
+      font-size: 0.88rem !important;
+      line-height: 1.4 !important;
       margin: 0 !important;
     }
 
-    /* FIX DEFINITIVO DE TABLAS */
+    /* ESTILO DE TABLAS */
     .markdown-section table {
       display: table !important;
       width: 100% !important;
@@ -139,18 +153,6 @@
       border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
       color: #e2e8f0 !important;
     }
-
-    /* CAJA DE ADMINISTRACIÓN */
-    .admin-box {
-      background: rgba(239, 68, 68, 0.08);
-      border: 1px solid rgba(239, 68, 68, 0.3);
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
-      margin-top: 30px;
-    }
-    .admin-box h2 { color: #ef4444 !important; margin: 0 0 10px 0 !important; }
-    .admin-box p { color: #fca5a5 !important; margin: 0 !important; }
   </style>
 </head>
 <body>
@@ -173,4 +175,3 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
 </html>
-
