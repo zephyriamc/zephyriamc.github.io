@@ -1,4 +1,5 @@
 * [🏠 Inicio](/)
-* [⚖️ Sanciones](/sanciones)
+* [🗡️ Sanciones MC](/sanciones-mc)
+* [💬 Sanciones DC](/sanciones-dc)
 * [📖 Guías](/guias)
 * [📝 Formularios](/formularios)
