@@ -1,8 +1,10 @@
 # 👑 Listado de Owners
 
-> Lista oficial de los Owners de **Zephyria Network**.
+> Equipo de Propietarios y Dirección Ejecutiva de **Zephyria Network**.
 
-* **jose146alfx**
-* **BringsTone**
-* **the_visions**
-* **XxSantixX**
+| Nick (In-Game) | Rango | Estado |
+| :--- | :--- | :--- |
+| **jose146alfx** | Owner | 🟢 Activo |
+| **BringsTone** | Owner | 🟢 Activo |
+| **the_visions** | Owner | 🟢 Activo |
+| **XxSantixX** | Owner | 🟢 Activo |
