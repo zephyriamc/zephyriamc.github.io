@@ -1,5 +1,7 @@
 # ⚔️ Listado de Staff
 
-> Lista oficial del equipo de Staff activo de **Zephyria Network**.
+> Equipo de Moderación y Soporte Activo de **Zephyria Network**.
 
-* **Pepecaa**
+| Nick (In-Game) | Rango | Estado |
+| :--- | :--- | :--- |
+| **Pepecaa** | Staff | 🟢 Activo |
