@@ -6,13 +6,13 @@
 ---
 
 ## 📋 Índice General
-1. [Principios Fundamentales](#-1-principios-fundamentales)
-2. [Convivencia y Respeto en la Comunidad](#-2-convivencia-y-respeto-en-la-comunidad)
-3. [Juego Limpio y Ética de Juego](#-3-juego-limpio-y-ética-de-juego)
-4. [Uso Correcto de los Canales de Comunicación](#-4-uso-correcto-de-los-canales-de-comunicación)
-5. [Compromiso e Integridad del Equipo de Staff](#-5-compromiso-e-integridad-del-equipo-de-staff)
-6. [Protección de Datos y Privacidad](#-6-protección-de-datos-y-privacidad)
-7. [Cumplimiento y Consecuencias](#-7-cumplimiento-y-consecuencias)
+1. [Principios Fundamentales](#-principios-fundamentales)
+2. [Convivencia y Respeto en la Comunidad](#-convivencia-y-respeto-en-la-comunidad)
+3. [Juego Limpio y Ética de Juego](#-juego-limpio-y-ética-de-juego)
+4. [Uso Correcto de los Canales de Comunicación](#-uso-correcto-de-los-canales-de-comunicación)
+5. [Compromiso e Integridad del Equipo de Staff](#-compromiso-e-integridad-del-equipo-de-staff)
+6. [Protección de Datos y Privacidad](#-protección-de-datos-y-privacidad)
+7. [Cumplimiento y Consecuencias](#-cumplimiento-y-consecuencias)
 
 ---
 
