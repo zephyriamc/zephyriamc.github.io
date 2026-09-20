@@ -1,6 +1,8 @@
 # 🛡️ Listado de High Staff
 
-> Lista oficial del equipo de High Staff de **Zephyria Network**.
+> Equipo de Alta Administración y Supervisión General de **Zephyria Network**.
 
-* **RealNight**
-* **Edgar**
+| Nick (In-Game) | Rango | Estado |
+| :--- | :--- | :--- |
+| **RealNight** | High Staff | 🟢 Activo |
+| **Edgar** | High Staff | 🟢 Activo |
