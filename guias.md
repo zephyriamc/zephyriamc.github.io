@@ -7,20 +7,31 @@ Bienvenido a la documentación oficial y manual operativo para el equipo de Staf
 ## 📌 Índice General
 
 1. [Glosario General de Términos](#-glosario-general-de-términos)
+
 2. [Conceptos de Infracciones en Minecraft](#-conceptos-de-infracciones-en-minecraft)
+
    - [Categoría 1: Clientes Modificados y Cheats de Combate](#categoría-1-clientes-modificados-y-cheats-de-combate)
    - [Categoría 2: Cheats de Movimiento y Renderizado](#categoría-2-cheats-de-movimiento-y-renderizado)
    - [Categoría 3: Explotación, Automatización y Economía](#categoría-3-explotación-automatización-y-economía)
+
+   
 3. [Conceptos de Infracciones en Discord y Chat](#-conceptos-de-infracciones-en-discord-y-chat)
+
+
 4. [🔎 Protocolo de Revisiones (SS / Screenshare)](#-protocolo-de-revisiones-ss--screenshare)
+
    - [Fase 1: Notificación y Aislamiento](#fase-1-notificación-y-aislamiento)
    - [Fase 2: Herramientas de Inspección Recomendadas](#fase-2-herramientas-de-inspección-recomendadas)
    - [Fase 3: Ejecución y Rutina de Búsqueda](#fase-3-ejecución-y-rutina-de-búsqueda)
    - [Fase 4: Causales de Ban Inmediato durante SS](#fase-4-causales-de-ban-inmediato-durante-ss)
+
+   
 5. [📹 Criterios y Recolección de Pruebas](#-criterios-y-recolección-de-pruebas)
    - [Requisitos Mínimos para Pruebas de Vídeo](#requisitos-mínimos-para-pruebas-de-vídeo)
    - [Requisitos Mínimos para Capturas de Pantalla](#requisitos-mínimos-para-capturas-de-pantalla)
-6. [⚖️ Código de Conducta del Staff](#%EF%B8%8F-código-de-conducta-del-staff)
+
+   
+6. [⚖️ Código de Conducta del Staff](#%EF%B8%8F-codigo-conducta.md)
 
 ---
 
